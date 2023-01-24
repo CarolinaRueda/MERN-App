@@ -1,0 +1,15 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "MERN App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm start --prefix frontend\" \"npm run server --prefix backend\""
+  },
+  "author": "Carolina Rueda",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
